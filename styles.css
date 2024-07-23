@@ -118,7 +118,6 @@ html{
 .search-bar {
     height: 35px;
     background-color: white;
-    flex: 1;
     border-radius: 3px;
     display: flex;
     align-items: center;
@@ -132,6 +131,7 @@ html{
 .cart {
     width: 130px;
     text-align: center;
+    flex: 1;
 }
 
 .cart-logo {
@@ -185,3 +185,37 @@ html{
     font-size: 1.4rem;
     color: white;
 }
+
+.searching-site {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    width: 900px;
+    position: relative;
+    top: 10px;
+}
+
+.list__link{
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+
+.list__item{
+    margin-top: 5px;
+    height: 19px;
+}
+
+.list{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+    white-space: nowrap;
+    margin-left: 13px;  
+    text-decoration: none; 
+}
+.list:first-child
+{
+    margin-left: 0px;
+}
+
