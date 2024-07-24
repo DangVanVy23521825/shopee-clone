@@ -48,6 +48,52 @@ html{
     width: 83.3334%;
 }
 
+.btn {
+    min-width: 124px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6rem;
+    background-color: white;
+}
+
+
+.btn-primary {
+    background-color: #fe6433;
+    color: white;
+}
+
+.select-input {
+    min-width: 200px;
+    height: 34px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-input-label {
+    font-size: 1.4rem;
+}
+
+.select-input-icon {
+    font-size: 1.4rem;
+    color: rgba(131,131,131);
+    position: relative;
+    top: 1px;
+}
+
 .header{
     height: var(--header-height);
     background-image: linear-gradient(0, #fe6433, #f53e2d);
@@ -77,7 +123,7 @@ html{
 
 .navbar-item, .nav-link-item{
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: white;
     text-decoration: none;
     font-weight: lighter;
@@ -246,6 +292,7 @@ html{
     font-size: 1.5rem;
     color: var(--text-color);
     padding: 12px 16px;
+    margin-top: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -291,4 +338,78 @@ html{
 .item-link:hover {
     right: -4px;
     color:#fe6433;
+}
+
+.web-content {
+    padding-top: 34px;
+}
+
+.home-filter {
+    display: flex;
+    align-items: center;
+    padding: 12px 22px;
+    border-radius: 2px;
+    background-color: rgba(132, 129, 129, 0.05);    
+}
+
+.home-filter-label {
+    font-size: 1.4rem;
+    color: #555;
+    margin-right: 16px;
+
+}
+
+.home-filter-btn {
+    min-width: 90px;
+    margin-right: 12px;
+}
+
+.home-filter-page {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.home-filter-nums {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-right: 22px;
+}
+
+.home-filter-page-current {
+    color:#fb5533;
+}
+
+.home-filter-page-control {
+    border-radius: 2px;
+    overflow: hidden;
+    display: flex;
+    width: 72px;
+    height: 36px;
+}
+
+.home-filter-page-btn {
+    flex: 1;
+    display: flex;
+    background-color: white;
+    text-decoration: none;
+}
+
+.home-filter-page-btn:first-child {
+    border: 0.5px solid #eee;
+}
+
+.home-page-control-icon {
+    margin: auto;
+    font-size: 1.3rem;
+    color: #555;
+}
+
+.home-page-control-icon-disabled {
+    background-color: #f9f9f9;
+    cursor: default;
+}
+
+.home-page-control-icon-disabled .home-page-control-icon {
+    color: #ccc;
 }
