@@ -160,7 +160,7 @@
                         </div>
 
                         <div class="home-product">
-                            <div class="grid-row">
+                            <div class="grid-row grid-row2">
                                 <div class="grid-2-4-column">
                                     <div class="home-product-item">
                                         <div class="home-product-item-img" style="background-image: url(https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-ln304g5yiuk3ff_tn)"></div>
@@ -201,6 +201,17 @@
         </div>
 
         <footer class="footer"></footer>
-        <script src="script.js"></script>
+        <script>
+            const parent = document.querySelector('.grid-row2');
+            const product = document.querySelector('.grid-2-4-column');
+        
+            let n = 19;
+            const duplicates = Array(n).fill(null);
+
+            duplicates.forEach(() => {
+                const cloneProduct = product.cloneNode(true);
+                parent.appendChild(cloneProduct);
+            });
+        </script>
     </body>
 </html>
