@@ -265,6 +265,8 @@ html{
     width: 100%;
     flex: 1;
     display: flex;
+    position: relative;
+    top: 10px;
 }
 
 .list__item{
@@ -290,7 +292,6 @@ html{
 }
 
 .category {
-    background-color: white;
     border-radius: 2px;
 }
 
@@ -307,6 +308,11 @@ html{
     margin-right: 4px;
 }
 
+.category-filter {
+    font-size: 1.4rem;
+    font-stretch: expanded;
+}
+
 .side-list-items {
     padding-left: 0;
     list-style: none;
@@ -314,7 +320,9 @@ html{
 }
 
 .side-items {
-    
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: 550;
 }
 
 .side-items-active .item-link {
