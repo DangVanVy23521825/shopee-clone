@@ -547,6 +547,44 @@ html{
     line-height: 1.6rem;
 }
 
+.home-product__pagination {
+    margin: 40px 0 32px 0;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination-item {
+    margin: 0 16px;
+
+}
+
+.pagination-item-active .pagination-link{
+    color: white;
+    background-color: #fb5533;
+}
+
+.pagination-link {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight:200;
+    color: #939393;
+    min-width:40px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+}
+
+.pagination-icon {
+
+}
+
 .footer {
     padding-top:16px;
     border-top: 4px solid #fb5533;
