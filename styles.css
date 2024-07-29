@@ -546,3 +546,139 @@ html{
     font-weight: 500;
     line-height: 1.6rem;
 }
+
+.footer {
+    padding-top:16px;
+    border-top: 4px solid #fb5533;
+    background-color: #f5f5f5;
+}
+
+.footer-heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-top: 20px;
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #666;
+    display: block;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-link:hover {
+    color: #fb5533;
+}
+
+.footer-item-icon {
+    font-size: 1.6rem;
+    margin: -1px 8px 0 0 ;
+}
+
+.footer-item {
+    margin-bottom: 6px;
+}
+
+.footer-download {
+    display: flex;
+}
+
+.footer-qrcode {
+    width: 80px;
+    object-fit: contain;
+    border: 1px solid rgb(195, 193, 193);
+}
+
+.footer-download-apps {
+    flex: 1;
+    margin-left: 16px;
+}
+
+.footer-download-apps-image {
+    padding: 2px;
+    background-color: white;
+    border-radius: 2px;
+    border: 0.5px outset rgb(195,193,193);
+}
+
+.footer-payment {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.footer-payment-image {
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+}
+
+.footer-shipping {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-shipping-image {
+    padding: 2px;
+    margin: 2px;
+    background-color: white;
+    border-radius: 2px;
+    border: none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    .footer-information {
+        border-top: .5px solid rgba(0, 0, 0, .1);
+    }
+}
+
+.footer-information {
+    color: #666;
+    display: flex;
+    flex-wrap:wrap;
+    padding: 2.5rem 0;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-web-infor {
+    margin-right: 16px;
+    font-size: 1.3rem;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.footer-web-nations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nations-list {
+    flex: 1 0 auto;
+    font-size: 1.3rem;
+}
+
+.nation {
+    color: #666;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 0 5px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    .nation:not(:last-child) {
+        border-right: .5px solid rgba(0, 0, 0, .2);
+    }
+}
